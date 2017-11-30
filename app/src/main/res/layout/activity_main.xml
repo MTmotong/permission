@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dzy.permission.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_camera5"
+        android:layout_alignParentTop="true"
+        android:text="获取摄像头权限5.0"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_camera6"
+        android:layout_below="@id/get_camera5"
+        android:text="获取摄像头权限6.0"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_camera7"
+        android:layout_below="@id/get_camera6"
+        android:text="获取摄像头权限7.0"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skip"
+        android:layout_below="@id/get_camera7"
+        android:text="skip"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/and_permission"
+        android:layout_below="@id/skip"
+        android:text="AndPermission"/>
+
+</RelativeLayout>
